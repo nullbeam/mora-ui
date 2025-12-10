@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  /* --- FUENTES --- */
+  --font-sans: "Segoe UI", "Arial", "sans-serif", system-ui;
+
+  /* --- WALLPAPERS --- */
+  --background-image-locked: url('/assets/screen-saver.png'); /* Ajusta tu ruta */
+  --background-image-default: url('/assets/wallpapers/img0.jpg');
+
+  /* --- MAPEO MANUAL DE COLORES --- */
+  
+  /* 1. Mapear Gray -> Neutral */
+  --color-gray-50: var(--color-neutral-50);
+  --color-gray-100: var(--color-neutral-100);
+  --color-gray-200: var(--color-neutral-200);
+  --color-gray-300: var(--color-neutral-300);
+  --color-gray-400: var(--color-neutral-400);
+  --color-gray-500: var(--color-neutral-500);
+  --color-gray-600: var(--color-neutral-600);
+  --color-gray-700: var(--color-neutral-700);
+  --color-gray-800: var(--color-neutral-800);
+  --color-gray-900: var(--color-neutral-900);
+  --color-gray-950: var(--color-neutral-950);
+
+  /* 2. Mapear Red -> Rose */
+  --color-red-50: var(--color-rose-50);
+  --color-red-100: var(--color-rose-100);
+  --color-red-200: var(--color-rose-200);
+  --color-red-300: var(--color-rose-300);
+  --color-red-400: var(--color-rose-400);
+  --color-red-500: var(--color-rose-500);
+  --color-red-600: var(--color-rose-600);
+  --color-red-700: var(--color-rose-700);
+  --color-red-800: var(--color-rose-800);
+  --color-red-900: var(--color-rose-900);
+  --color-red-950: var(--color-rose-950);
+
+  /* 3. Mapear Yellow -> Amber */
+  --color-yellow-50: var(--color-amber-50);
+  --color-yellow-100: var(--color-amber-100);
+  --color-yellow-200: var(--color-amber-200);
+  --color-yellow-300: var(--color-amber-300);
+  --color-yellow-400: var(--color-amber-400);
+  --color-yellow-500: var(--color-amber-500);
+  --color-yellow-600: var(--color-amber-600);
+  --color-yellow-700: var(--color-amber-700);
+  --color-yellow-800: var(--color-amber-800);
+  --color-yellow-900: var(--color-amber-900);
+  --color-yellow-950: var(--color-amber-950);
+}
+
+#search-programs-list::-webkit-scrollbar {
+    width: 2px; /* width of the entire scrollbar */
+}
+
+#search-programs-list::-webkit-scrollbar:hover {
+    width: 8px; /* width of the entire scrollbar */
+}
+
+#search-programs-list::-webkit-scrollbar-thumb {
+    background-color: #b0b0bb; /* color of the scroll thumb */
+    border-radius: 10px; /* roundness of the scroll thumb */
+}
+#search-programs-list::-webkit-scrollbar-thumb:hover {
+    background-color: #52525b; /* color of the scroll thumb */
+    border-radius: 50px; /* roundness of the scroll thumb */
+}
